@@ -1,0 +1,223 @@
+/*creates a box around all elements*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*changes the background color of the body*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*pads, changes font family, background color, and color of header class*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*changes font size and how h1 elements are displayed*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*changes color of seo class in h1 of header class*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*pads top of, changes margin right of, floats right, changes font family and size of nav in header class*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*changes list style type of unordered list in nav of header class*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*changes display and margin left of list items in unordered list in nav of header class*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*changes color and text decoration of a tags*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*changes font size of p tags*/
+p {
+    font-size: 16px;
+}
+
+/*changes height, width, bottom margin, background size, position, and adds an image to the hero class*/ 
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*float changed to left and margin right changed for float-left class*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*float changed to right and margin left changed for float-right class*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*width, display, and margin left changed for the content class*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*margin-right, padding, clear, float, width, height, font family, and background color changed in the benefits class*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*sub classes of benefit are modified*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*bottom margin, padding, height, font family, background color, and color of search-engine-optimization class is modified*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*bottom margin, padding, height, font family, background color, and color of online-reputation-management class is modified*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*bottom margin, padding, height, font family, background color, and color of social-media-marketing class is modified*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*images and h2s of search-engine-optimization and online-reputation-management classes are modified*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*padding, clear, font family, and text align of footer class are changed*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*font-size of h2 in footer class is modified*/
+.footer h2 {
+    font-size: 20px;
+}
