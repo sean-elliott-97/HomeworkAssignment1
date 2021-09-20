@@ -1,4 +1,5 @@
 # HomeworkAssignment1
+Horiseon Social Solution Services, a marketing company, would like its codebase to meet accessibility standards so its website is optimized for search engines:  
 
 Divs in index.html were replaced with semantic elements
 
